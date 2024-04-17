@@ -1,31 +1,57 @@
-# IaaC WordPress Deployment Challenge
+# re3_challenge_IaaC_CMS_Junior
 
-Welcome to the **re3_challenge_IaaC_wordpress** repository! Here, you'll find instructions for deploying a new application that is scheduled to go live in the next month. Follow the steps below to automate the creation of the infrastructure and set up the application.
+This repository contains instructions for setting up a new application that will be deployed soon. Follow the steps below to create the necessary infrastructure and deploy the Joomla application.
 
-## Instructions
+### Instructions
 
-1. **Fork this repository**: Fork this repository to your GitHub account to start working on the deployment process.
+1. **Create a New Repository:**
+   - Create a new public repository on GitHub or a similar platform.
+   - Work on the deployment process within this repository.
 
-2. **Automate Infrastructure and Application Setup**:
-   - You are required to automate the creation of both the infrastructure and the setup of the WordPress application.
-   - Use the following instructions as a guide:
-     - It should work on Ubuntu Linux 20.04 x64 or later.
-     - The application is based on the latest version of WordPress (6.4 or newer).
-     - You have the freedom to choose between Apache, Nginx, or any other suitable web server.
-   - If you encounter any issues or have questions, feel free to reach out to the developers for assistance. 😊
+2. **Automate Infrastructure and CMS Setup:**
+   - Automate the setup of infrastructure and Web application.
 
-3. **Ensure Security, Speed, and Stability**:
-   - Once deployed, the application must be secure, fast, and stable.
-   - Assume that the machine is accessible via the public Internet and implement necessary security measures to harden and lock down the environment.
+### Requirements
 
-4. **Make Assumptions and Showcase Your Skills**:
-   - Feel free to make any assumptions necessary to complete the deployment process effectively.
-   - This is your opportunity to showcase your skills. Implement the deployment process with additional features, tools, or techniques that demonstrate your expertise.
+Ensure the following requirements are met:
 
-5. **Demonstrate Beautiful, Clean, and Pragmatic Code**:
-   - We will evaluate solutions based on the architecture and quality of the deployment.
-   - Strive to write beautiful, clean, and pragmatic code that reflects best practices in infrastructure automation.
+1. **Operating System Compatibility:**
+   - Ubuntu Linux 20.04 (or newer) or Amazon Linux 2023.
 
-6. **Submission**:
-   - Once your solution is ready, please send us the link to your project.
-   - We look forward to reviewing your deployment solution!
+2. **Web Server Options:**
+   - Choose between Apache, Nginx, or any preferred web server.
+
+3. **Deployment Objectives:**
+   - The deployed application must be:
+     - Secure,
+     - Fast,
+     - Fault-tolerant, and
+     - Adaptive to average load.
+
+4. **Log Backup:**
+   - Implement backup of web server logs with a rotation period of 7 days.
+
+5. **Error Notification:**
+   - Set up notifications for when more than 10 4xx requests are returned by the application.
+
+### Bonus Requirements
+
+Follow these instructions to install and try out the solution:
+
+1. **Installation Steps:**
+   - Provide detailed steps for installation
+
+2. **Testing the Solution:**
+   - Explain how to test the deployed application
+
+### Assumptions
+
+Feel free to make any necessary assumptions during the deployment process to meet the requirements effectively.
+
+### Evaluation Criteria
+
+We will evaluate solutions based on the architecture and quality of the deployment. Aim for clean, pragmatic, and elegant code to showcase your skills effectively.
+
+Once your solution is ready, please share the project link with us for evaluation.
+
+Happy coding!
