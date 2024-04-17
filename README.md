@@ -54,7 +54,7 @@ Follow these instructions to install and try out the solution:
    - Explain how to test the deployed application
   
 3. **Create the infrastructure's template**
-   - Use Terraform (opensource) or AWS CloudFormation, to automate the creation of the infrastructure.
+   - Use Terraform or AWS CloudFormation, to automate the creation of the infrastructure.
 
 ### Assumptions
 
