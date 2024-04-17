@@ -1,6 +1,11 @@
 # re3_challenge_IaaC_CMS_Junior
 
-This repository contains instructions for setting up a new application that will be deployed soon. Follow the steps below to create the necessary infrastructure and deploy the Joomla application.
+## Requirements
+This repository contains instructions for setting up a new application that will be deployed soon. Follow the steps below to create the necessary infrastructure and deploy the Web application.
+
+- Candidates must successfully complete the mandatory tasks to progress in the hiring process, demonstrating fundamental skills to achive the project's objectives. 
+- Optional tasks are there for earning additional points, showing a deeper understanding and broader skill set. 
+- The bonus task is specifically for those who want to showcase advanced knowledge in infrastructure automation and DevOps practices, going above the basic requirements.
 
 ### Instructions
 
@@ -8,10 +13,10 @@ This repository contains instructions for setting up a new application that will
    - Create a new public repository on GitHub or a similar platform.
    - Work on the deployment process within this repository.
 
-2. **Automate Infrastructure and CMS Setup:**
-   - Automate the setup of infrastructure and Web application.
-
-### Requirements
+2. **Create an Infrastructure and CMS Setup:**
+   - Create and setup an infrastructure and a Web application.
+   
+### Mandatory requirements
 
 Ensure the following requirements are met:
 
@@ -25,14 +30,18 @@ Ensure the following requirements are met:
    - The deployed application must be:
      - Secure,
      - Fast,
-     - Fault-tolerant, and
-     - Adaptive to average load.
+     - Fault-tolerant
 
-4. **Log Backup:**
-   - Implement backup of web server logs with a rotation period of 7 days.
-
-5. **Error Notification:**
+4. **Error Notification:**
    - Set up notifications for when more than 10 4xx requests are returned by the application.
+   
+### Optional Requirements
+
+1. **Log Backup:**
+   - Implement backup of web server logs with a rotation period of 7 days.
+     
+2. **Automate application cofiguration**
+   - Use Ansible to automate your configuration (share the files with us).
 
 ### Bonus Requirements
 
@@ -43,6 +52,9 @@ Follow these instructions to install and try out the solution:
 
 2. **Testing the Solution:**
    - Explain how to test the deployed application
+  
+3. **Create the infrastructure's template**
+   - Use Terraform (opensource) or AWS CloudFormation, to automate the creation of the infrastructure.
 
 ### Assumptions
 
